@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <title>Clase 10</title>
 </head>
 <body>
@@ -12,16 +14,33 @@
         <nav>
             <p>Descuentos 20%</p>
         </nav>
-        <nav id="heroes">
+        <nav class="heroes">
             <h1>Heroes</h1>
         </nav>
     </header>
     <main>
-        <i>heart</i>
-        <img src="img" alt="hero">
-        <h2>hero name</h2>
-        <p>hero info</p>
-        <button>Ver más</button>
+        <!-- <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div> -->
+        <div class="card">
+            <div class="card-body">
+                <div class="container">
+                    <i id="heart" class="fa fa-heart" style="color: #cc2424;"></i>
+                    <img id="background" src="https://s3-alpha-sig.figma.com/img/5055/b6a0/4287309c581511998d161daaf1b42117?Expires=1686528000&Signature=FBiqkXhteV~L3a~oo8LviDY4HcJJThZeyCdCMlqxdu0vt19uIy3g1e2IdK55zzzvHigzTKGbFrI9ESfCuT-iAvCKmZf7Wtfn0YAJj3zbFE36fJLLpDU7~Bzs78UY8J1CZnsqzD0RY1xmRUbyyb9LBNL~U2FtphimpXg0UuGQjFfql6kiMykW3Lg09u27c2zOJX1~2Am3-SNDRW7XT~2EsMznmZ3Q86TKhhRDoy57dNt5sS6j-d4-3uZJcCDt5QSJYGED48arw2oyrL8-cAqw1IDeDFvROg2sKiQfTKjAmytGlXLiAq5Zw7C9J~cytjVMrHPczYCxHIr5ROChsZWSag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="background">
+                </div>
+                <img id="profile-img" src="https://s3-alpha-sig.figma.com/img/3841/00ff/cd1a20be714408b5cbdb5ec72de77010?Expires=1686528000&Signature=TraN6X93AKXJwW6YGmgagVzlv6b1-68pc2NmKZBYSJfRwKSglIzShEWB0iV6ai1SAd1sdP0oqGN6Wll7a4d0u9h8MJliOs2n4w4o1vLNuDvhifeAIpab1g-3TcfACoBuEfjH~M-llOCPk~Dt~s4O5jGBTrSRzZqmTdb9XjtFxS8QpIDD88NG337lj4SgCQSaCjKpXONyRziZMzst642zZhm4RDfdO9wP5oNLbxhE2jnOajuPOZ2k5xPuyuAyUJ~6rLl6tjdFsVYZ41oDxAMUlNSjXiLzcEXiu4qqCpR6yVi10a8pvuO57gxT7GrjY83G6BzLA6maGbw3qoGbxjz~iA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="profile-img">
+                <!-- <div class="card-body"> -->
+                <h5 class="card-title">BATMAN</h5>
+                <p class="card-text">Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing</p>
+                <!-- <a href="#" type="button" class="btn">Ver más</a> -->
+                <button class="button">Ver más</button>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>

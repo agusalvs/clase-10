@@ -1,4 +1,66 @@
-#heroes {
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.heroes {
     background-color: #00669F;
     box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 28px;
+    padding-left: 28px;
+    padding-bottom: 26px;
+    font-size: 40px;
+}
+
+.card {
+    width: 18rem;
+    /* margin-top: -10px; */
+}
+
+/* .container {
+    background-color: #F3F3F3;
+    width: 18rem;
+    height: 336px;
+} */
+
+/* #heart {
+    position: relative;
+    margin-left: 50px;
+} */
+
+.card {
+    text-align: center;
+}
+
+#background {
+    /* margin-top: -10px; */
+    /* width: 25%; */
+    width: 18rem;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#profile-img {
+    /* width: 10%; */
+    /* box-sizing: border-box; */
+    margin-top: -50px;
+    width: 120px;
+    border-radius: 100%;
+    padding: auto;
+}
+
+.container {
+    /* margin-top: -98px; */
+}
+
+.button {
+    background-color: #00669F;
+    color: #F3F3F3;
+    border-color: #00669F;
+}
+
+footer {
+    background-color: #00669F;
 }
